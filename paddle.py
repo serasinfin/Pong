@@ -2,6 +2,7 @@ from turtle import Turtle
 
 
 class Paddle(Turtle):
+	"""Create two paddle"""
 	def __init__(self, position):
 		super().__init__()
 		self.shape("square")
