@@ -20,9 +20,10 @@ scoreboard = Scoreboard()
 
 # Paddle controls
 screen.listen()
+# Right paddle control
 screen.onkey(r_paddle.go_up, "Up")
 screen.onkey(r_paddle.go_down, "Down")
-
+# Left paddle control
 screen.onkey(l_paddle.go_up, "w")
 screen.onkey(l_paddle.go_down, "s")
 
